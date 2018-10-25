@@ -1,0 +1,24 @@
+{
+  "name": "chabior/php-redlock-lock",
+  "description": "Redlock Storage for php-lock",
+  "type": "library",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "chabior\\Lock\\Redlock\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "chabior\\Lock\\Redlock\\Tests\\": "tests/src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "chabior/php-redis-lock": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
